@@ -1,0 +1,195 @@
+/*css for team*/
+.dismiss_modal{
+    border: 1px solid grey !important;padding: 5px !important;width: 50px;float:right;
+}
+
+.my_navs{
+    list-style-type:arabic-indic !important;
+    margin: 0 !important; 
+    padding: 0 !important;
+    float: right !important;
+    direction:RTL !important;
+    text-align: right;
+}
+
+.tab-content{
+    direction:rtl !important; 
+}
+li{direction:rtl !important; margin-right:20px;}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: right !important;
+}
+.table-scroll .table-body td:first-child {
+    border-right:none
+}
+.table > tbody > tr > td {
+    width: auto;
+    max-width: 100%;
+}
+
+th .override{
+    text-align: right !important;;
+}
+
+.next_prev{
+    float:left;
+}
+.freelancer_name{
+    clear: both;
+}
+.modal_img{
+    float:right;
+}
+.modal_team_name{
+    text-align:initial;
+    font-size: 24px;font-weight: bolder;
+}
+
+
+h1,h2,h3,h4,h5,h6,button,a,li,ul{
+    font-family:GE-SS-TWO-BOLD;
+}
+p,span,font{
+    font-family:GE-SS-TWO-LIGHT;
+}
+
+/*welcome page*/
+.pull{
+    float: left !important;
+    padding-left: 40px !important;
+}
+.pull-login-link{
+    margin-left: 50px;
+}
+#search_keyword{
+    float: left;
+    margin-right: 16px;
+}
+.table-heading{
+    float: right !important;
+}
+.pull-b-btn{
+    float: right;
+
+}
+.pull-b-field{
+    margin-right: 50px;
+}
+
+
+.profile_pic {
+    width: 35% !important;
+    float: right;
+}
+.profile_info {
+    padding: 25px 10px 10px;
+    width: 25% !important;
+    float: left;
+}
+.profile_info h2 {
+    font-size: 16px;
+    color: #ECF0F1;
+    margin: 0;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 37px;
+}
+.float_right{
+    float: right !important;
+}
+.margin_r30{
+    margin-left: 100px !important;
+}
+.position_l_10{
+  left: 10px !important;
+}
+.padding_r_10{
+    padding-right: 10px !important;
+}
+.btn-postion-abs{
+position: absolute !important;
+}
+
+/* Rtl Css by ALI */
+
+.qouts_btn{
+    padding-right:0px !important;
+}
+
+
+
+.tile-stats .icon{
+    left: 42px !important; 
+    right:auto !important; 
+    top: 16px !important;
+}
+.tile-stats .icon i{font-size: 50px !important;}
+
+.col-md-4.fashion.port-rtl.PHOTOGRAPHY:first-child {
+    right: 0 !important;
+    left: unset !important;
+}
+.col-md-4.fashion.port-rtl.PHOTOGRAPHY:nth-child(2){
+    right: 284px!important;
+    left: unset !important;
+}
+.col-md-4.fashion.port-rtl.PHOTOGRAPHY:nth-child(3){
+    right: 569px !important;
+    left: unset !important;
+}
+.col-md-4.fashion.port-rtl.PHOTOGRAPHY:nth-child(4){
+    right: 0 !important;
+    left: unset !important;
+}
+ul.nav.side-menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+@media only screen and (max-width:1199px){
+    .box-header-small{
+        top:0 !important;
+    }
+}
+@media only screen and (max-width:991px){.small-price {
+    margin-bottom: 10px;
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .box-header-small{
+        top:0 !important;
+    }
+    h2.hire-small {
+        text-align: right;
+    }
+    .grow-small{
+        text-align: right;
+    }
+    .small-pull-b-fixed{
+        margin-right: 0;
+    }
+    .small-filter li {
+        display: inline-block;
+    }
+
+}
+@media only screen and (max-width:767px){
+    .small-pull-b-fixed {
+        margin-right: 0;
+    }
+    .potfolio-small {
+        text-align: center;
+    }
+    .box-header-small .pull{padding-left: 0 !important;}
+}
+@media only screen and (max-width:567px){
+    .box-logo{margin-right: 0;}
+    .box-header-small .pull {text-align: left;}
+    .box-header-small .pull li a {font-size: 14px;}
+}
+@media only screen and (max-width:480px){
+    .newsletter{text-align: center;}
+}

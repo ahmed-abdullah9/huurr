@@ -1,0 +1,81 @@
+/*css for team*/
+.dismiss_modal{
+    border: 1px solid grey !important;padding: 5px !important;width: 50px;float:left;
+}
+.next_prev{
+    float:right;
+}
+.modal_img{
+    float:left;
+}
+.modal_team_name{
+    font-size: 24px;font-weight: bolder;
+}
+
+/*welcome page*/
+.pull{
+    float: right !important;
+}
+.pull-login-link{
+    margin-right: 100px;
+}
+.pull-b-btn{
+    float: left;
+}
+
+.qouts_btn{
+    padding-right:1020px !important;
+}
+
+/* Css Written By Ali */
+@media only screen and (max-width:1199px){
+	.box-header{top:0 !important;}
+	
+}
+@media only screen and (max-width:600px){
+	.box-logo{
+		margin-left: 0 !important;
+	}
+	/*.potfolio-small {
+    	text-align: center;
+    	margin: auto;
+	}*/
+}
+@media only screen and (min-width:767px) and (max-width:991px){
+	.box-featur .col-sm-6 {
+    width: auto !important;
+}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+	.small-filter {
+        text-align: center;
+    }
+    .small-filter li{
+        display: inline-block;
+        margin: 0 15px 10px;
+    }
+    .small-price .pricing_plan {
+    margin-bottom: 10px;
+    }
+    .mbl-pstjob{float: right !important;}
+    .mbl-scroll{background-color: #666; margin-right: 37px;}
+    .mbl-jobedit{float: right !important;}
+}
+@media only screen and (max-width: 767px){
+    .mbl-skill {
+        text-align: center;
+    }
+    .small-price .pricing_plan {
+    margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .small-adapted{text-align: center;}
+}
+@media only screen and (max-width: 476px){
+    .box-header-small .pull {
+    
+        text-align: right;
+        display: -webkit-inline-box;
+    }
+}

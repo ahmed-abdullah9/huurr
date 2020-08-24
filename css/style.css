@@ -1,0 +1,10 @@
+
+img {
+     max-width: 100%;
+     height: auto;
+     transition: all 0.3s ease-in;
+}
+img:hover {
+     cursor: pointer;
+     opacity: 0.5;
+}
